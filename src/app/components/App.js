@@ -6,6 +6,11 @@ import '../styles/index.css';
 
 import projectList from '../data/projectList';
 import skillsList from '../data/skillsList';
+import Header from './Header/Header';
+import About from './About/About';
+import Projects from './Projects/Projects';
+import ProjectDetails from './ProjectDetails/ProjectDetails';
+import Footer from './Footer/Footer';
 
 class App extends Component {
   constructor(props) {
@@ -23,8 +28,8 @@ class App extends Component {
 
   componentWillMount() {
     this.setState({
-      projects: [...projects],
-      skills: [...skills]
+      projects: [...projectList],
+      skills: [...skillsList]
     });
   }
 
@@ -40,12 +45,36 @@ class App extends Component {
     Scroll.animateScroll.scrollToTop();
   }
 
+  showProjectDetails() {
+    const projectToDisplay = this.state.projects.find(project => 
+      project.title === this.state.projectToDisplay
+    );
+    return (
+      <Modal className='project-modal'
+             isOpen={ this.state.modalOpen }
+             contentLabel='Project Details' >
+        <ProjectDetails { ...projectToDisplay } toggleModal={ this.toggleModal } />
+      </Modal>
+    );
+  }
 
+  toggleModal(title) {
+    if (!this.state.modalOpen) {
+      this.setState({ modalOpen: true, projectToDisplay: title});
+    } else {
+      this.setState({ modalOpen: false, projectToDisplay: '' });
+    }
+  }
 
   render() {
+    const { projects, skills } = this.state;
     return (
      <main className="app">
-      <h1>Jack Bevis Portfolio</h1>
+      { this.showProjectDetails() }
+      <Header handleScrollDown={ this.scrollToAbout } />
+      <About skillsList={ skills } />
+      <Projects handleToggle={ this.toggleModal } projectList={ projects } />
+      <Footer handleScrollUp={ this.scrollToTop } />
      </main>
     );
   }

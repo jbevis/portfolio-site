@@ -59,7 +59,7 @@ const projects = [
 			site: '../syles/images/desktop.svg'
 		}
 	},
-	
+	{
 		title: 'Game Time',
 		description: 'Game Time is a web application of the classic arcade game Breakout. Users move the paddle back and forth to keep the ball alive and break bricks to increase score. This project was designed to reinforce TDD best practices, while also emphasizing OOP principles. The game was built using ES6 and HTML Canvas with CSS.',
 		image: '../styles/images/gametime.png',

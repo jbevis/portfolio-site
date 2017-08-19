@@ -53,14 +53,14 @@ class App extends Component {
       <Modal className='project-modal'
              isOpen={ this.state.modalOpen }
              contentLabel='Project Details' >
-        <ProjectDetails { ...projectToDisplay } toggleModal={ this.toggleModal } />
+        <ProjectDetails { ...projectToDisplay } handleToggle={ this.toggleModal } />
       </Modal>
     );
   }
 
   toggleModal(title) {
     if (!this.state.modalOpen) {
-      this.setState({ modalOpen: true, projectToDisplay: title});
+      this.setState({ modalOpen: true, projectToDisplay: title });
     } else {
       this.setState({ modalOpen: false, projectToDisplay: '' });
     }
@@ -72,7 +72,7 @@ class App extends Component {
      <main className="app">
       { this.showProjectDetails() }
       <Header handleScrollDown={ this.scrollToAbout } />
-      <About skillsList={ skills } />
+      <About skillsList={ skills } handleToggle={ this.toggleModal } />
       <Projects handleToggle={ this.toggleModal } projectList={ projects } />
       <Footer handleScrollUp={ this.scrollToTop } />
      </main>

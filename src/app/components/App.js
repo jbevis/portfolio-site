@@ -69,7 +69,7 @@ class App extends Component {
   render() {
     const { projects, skills } = this.state;
     return (
-     <main className="app">
+     <main id="app">
       { this.showProjectDetails() }
       <Header handleScrollDown={ this.scrollToAbout } />
       <About skillsList={ skills } handleToggle={ this.toggleModal } />

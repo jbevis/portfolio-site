@@ -4,11 +4,11 @@ import './About.css';
 import Bio from '../Bio/Bio';
 import Skills from '../Skills/Skills';
 
-const About = ({ skills, handleToggle }) => {
+const About = ({ skillsList, handleToggle }) => {
   return (
     <section id="about-section">
       <Bio handleToggle={ handleToggle } />
-      <Skills skills={ skills } />
+      <Skills skills={ skillsList } />
     </section>
   );
 };

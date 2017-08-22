@@ -65,3 +65,5 @@ const skillsList = [
 		imageAlt: 'Flowchart'
 	},
 ]
+
+export default skillsList;

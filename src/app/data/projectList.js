@@ -1,4 +1,4 @@
-const projects = [
+const projectsList = [
 	{
 		title: 'Trivial',
 		description: 'This application was our capstone project for Turing. It is a progressive web application that uses a Jeopardy questions API for a multi-player trivia game. This app was built with a Node / Express server and Knex / postgreSQL database. The front end of the app was built with React, React Router, and utilizes Socket.io for cross user interaction.',
@@ -72,3 +72,5 @@ const projects = [
 		}
 	}
 ]
+
+export default projectsList;

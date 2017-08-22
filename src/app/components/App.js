@@ -24,14 +24,14 @@ class App extends Component {
     this.toggleModal = this.toggleModal.bind(this);
     this.scrollToAbout = this.scrollToAbout.bind(this);
     this.scrollToTop = this.scrollToTop.bind(this);
-  }
+  };
 
   componentWillMount() {
     this.setState({
       projects: [...projectList],
       skills: [...skillsList]
     });
-  }
+  };
 
   scrollToAbout() {
     Scroll.scroller.scrollTo('about', {
@@ -43,7 +43,7 @@ class App extends Component {
 
   scrollToTop() {
     Scroll.animateScroll.scrollToTop();
-  }
+  };
 
   showProjectDetails() {
     const projectToDisplay = this.state.projects.find(project => 
@@ -56,7 +56,7 @@ class App extends Component {
         <ProjectDetails { ...projectToDisplay } handleToggle={ this.toggleModal } />
       </Modal>
     );
-  }
+  };
 
   toggleModal(title) {
     if (!this.state.modalOpen) {
@@ -64,7 +64,7 @@ class App extends Component {
     } else {
       this.setState({ modalOpen: false, projectToDisplay: '' });
     }
-  }
+  };
 
   render() {
     const { projects, skills } = this.state;
@@ -77,7 +77,7 @@ class App extends Component {
       <Footer handleScrollUp={ this.scrollToTop } />
      </main>
     );
-  }
-}
+  };
+};
 
 export default App;

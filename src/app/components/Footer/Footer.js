@@ -7,21 +7,21 @@ const Footer = ({ handleScrollUp }) => {
       <a className='footer-icons github'
          href='https://github.com/jbevis'
          target='_blank'
-         title='GitHub'
+         title='GitHub' >
       </a>
       <a className='footer-icons linkedin'
            href='https://www.linkedin.com/in/jack-bevis-884073138/'
            target='_blank'
-           title='Linkedin'
+           title='Linkedin' >
       </a>
       <a className='footer-icons twitter'
            href='https://twitter.com/bevisjw'
            target='_blank'
-           title='Twitter'
+           title='Twitter' >
       </a>
       <a className='footer-icons contact'
            href='mailto:jack.bevis@gmail.com'
-           title='Contact'
+           title='Contact' >
       </a>
       <button id='scroll-up'
               type='button'

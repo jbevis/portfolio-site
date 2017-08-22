@@ -1,8 +1,8 @@
 import React from 'react';
 import './Projects.css';
 
-const Projects = ({ handleToggle, projects }) => {
-  const allProjects = projects.map((project, i) => {
+const Projects = ({ handleToggle, projectList }) => {
+  const allProjects = projectList.map((project, i) => {
     const { title, image, gitHubRepo, siteURL, icons } = project;
 
     return (

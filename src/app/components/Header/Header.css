@@ -1,22 +1,22 @@
 #header {
-	height: 100vh;
-	width: 490px;
+  height: 100vh;
+  width: 490px;
 }
 
 #bio-title {
-	color: #605E72;
-	margin: 75px 30px;
-	font-size: 1.64em;
-	width: 750px;
+  color: #605E72;
+  margin: 75px 30px;
+  font-size: 1.64em;
+  width: 750px;
 }
 
 .scroll-btn {
-	display: block;
-	background-color: transparent;
-	background-size: cover;
+  display: block;
+  background-color: transparent;
+  background-size: cover;
   background: url('../../styles/images/arrow.svg');
-	outline: none;
-	width: 50px;
+  outline: none;
+  width: 50px;
   height: 50px;
   margin: 10px auto 0 auto;
   border: none;
@@ -25,7 +25,7 @@
 }
 
 #name {
-	-webkit-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   border: none;
@@ -33,5 +33,5 @@
 }
 
 #bar {
-	color: #7D4F50;
+  color: #7D4F50;
 }

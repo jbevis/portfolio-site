@@ -2,9 +2,9 @@ import React from 'react';
 import './ProjectDetails.css';
 
 const ProjectDetails = ({ title, description, image, techUsed, handleToggle }) => {
-  const listedTech = techUsed.map((tech, i) => {
+  const listedTech = techUsed.map((tech, i) =>
     <h4 key={ i }>{ tech }</h4>
-  });
+  );
   
   return (
     <section className='project-details'>

@@ -11,20 +11,20 @@ const Projects = ({ handleToggle, projectList }) => {
         <section className='article-layer'>
           <h3>{ title }</h3>
           <a href={ gitHubRepo } target='_blank' title='GitHub Repo'>
-            <img className='project-icons' src={ icons.gitHiub } alt='GitHub Logo' />
+            <img className='project-icons' src={ require(`${icons.gitHub}`) } alt='GitHub Logo' />
           </a>
           <button className='project-btn'
                   onClick={ () => handleToggle(title) } >
             More Info
           </button>
           <a href={ siteURL } target='_blank' alt='Website'>
-            <img className='project-icons' src={ icons.site } alt='Live site icon' />
+            <img className='project-icons' src={ require(`${icons.site}`) } alt='Live site icon' />
           </a>
         </section>
       </article>
     );
   });
-  console.log(allProjects)
+
   return (
     <section id='projects'>
       <h2>Projects</h2>

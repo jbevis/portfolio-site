@@ -5,10 +5,10 @@ const projectsList = [
 		image: './project-images/trivial.png',
 		gitHubRepo: 'https://github.com/kamos1/trivial',
 		siteURL: 'https://trivial123.herokuapp.com',
-		techUsed: ['JavaScript', 'React', 'React Router', 'Socket.io', 'Node', 'Express', 'Knex', 'postgreSQL', 'webpack', 'Mocha', 'Chai', 'Enzyme', 'Jest', 'SCSS', 'jService.io API', 'CircleCI'],
+		techUsed: ['JavaScript', 'React', 'React Router', 'Socket.io', 'Node', 'Express', 'Knex', 'postgreSQL', 'Webpack', 'Mocha', 'Chai', 'Enzyme', 'Jest', 'SCSS', 'jService.io API', 'CircleCI'],
 		icons: {
-			gitHub: 'github-logo.svg',
-			site: '../syles/images/desktop.svg'
+			gitHub: './project-images/github-logo.svg',
+			site: './project-images/desktop.svg'
 		}
 	},
 	{
@@ -19,8 +19,8 @@ const projectsList = [
 		siteURL: 'https://jbevis.github.io/Get-Out-There/',
 		techUsed: ['JavaScript', 'React', 'React Router', 'Redux', 'Redux-thunk', 'Victory.js', 'Mocha', 'Chai', 'Enzyme', 'Jest', 'CSS', 'Google Maps API', 'Hiking Project API'],
 		icons: {
-			gitHub: '../styles/images/github-logo.svg',
-			site: '../syles/images/desktop.svg'
+			gitHub: './project-images/github-logo.svg',
+			site: './project-images/desktop.svg'
 		}
 	},
 	{
@@ -31,8 +31,8 @@ const projectsList = [
 		siteURL: 'https://aw-jb-jetfuel.herokuapp.com/',
 		techUsed: ['JavaScript', 'jQuery', 'Node', 'Express', 'Knex', 'postgreSQL', 'Mocha', 'Chai', 'HTML5', 'CSS', 'CircleCI'],
 		icons: {
-			gitHub: '../styles/images/github-logo.svg',
-			site: '../syles/images/desktop.svg'
+			gitHub: './project-images/github-logo.svg',
+			site: './project-images/desktop.svg'
 		}
 	},
 	{
@@ -41,10 +41,10 @@ const projectsList = [
 		image: './project-images/movietracker.png',
 		gitHubRepo: 'https://github.com/jbevis/movie-tracker',
 		siteURL: 'https://movie-tracker-jbevis.herokuapp.com/',
-		techUsed: ['JavaScript', 'React', 'React Router', 'Redux', 'Redux-thunk', 'Node', 'Express', 'Knex', 'postgreSQL', 'webpack', 'Mocha', 'Chai', 'Enzyme', 'Jest', 'CSS', 'Movie Database API'],
+		techUsed: ['JavaScript', 'React', 'React Router', 'Redux', 'Redux-thunk', 'Node', 'Express', 'Knex', 'postgreSQL', 'Webpack', 'Mocha', 'Chai', 'Enzyme', 'Jest', 'CSS', 'Movie Database API'],
 		icons: {
-			gitHub: '../styles/images/github-logo.svg',
-			site: '../syles/images/desktop.svg'
+			gitHub: './project-images/github-logo.svg',
+			site: './project-images/desktop.svg'
 		}
 	},
 	{
@@ -53,10 +53,10 @@ const projectsList = [
 		image: './project-images/weatherly.png',
 		gitHubRepo: 'https://github.com/jbevis/weatherly',
 		siteURL: 'https://jbevis.github.io/weatherly',
-		techUsed: ['JavaScript', 'jQuery(ajax)', 'React', 'webpack', 'Mocha', 'Chai', 'Enzyme', 'Jest', 'CSS', 'Weather Underground API'],
+		techUsed: ['JavaScript', 'jQuery(ajax)', 'React', 'Webpack', 'Mocha', 'Chai', 'Enzyme', 'Jest', 'CSS', 'Weather Underground API'],
 		icons: {
-			gitHub: '../styles/images/github-logo.svg',
-			site: '../syles/images/desktop.svg'
+			gitHub: './project-images/github-logo.svg',
+			site: './project-images/desktop.svg'
 		}
 	},
 	{
@@ -65,10 +65,10 @@ const projectsList = [
 		image: './project-images/gametime.png',
 		gitHubRepo: 'https://github.com/jbevis/game-time',
 		siteURL: 'https://jbevis.github.io/game-time/',
-		techUsed: ['JavaScript / ES6', 'webpack', 'Mocha', 'Chai', 'CSS', 'HTML Canvas'],
+		techUsed: ['JavaScript / ES6', 'Webpack', 'Mocha', 'Chai', 'CSS', 'HTML Canvas'],
 		icons: {
-			gitHub: '../styles/images/github-logo.svg',
-			site: '../syles/images/desktop.svg'
+			gitHub: './project-images/github-logo.svg',
+			site: './project-images/desktop.svg'
 		}
 	}
 ]

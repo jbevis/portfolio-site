@@ -1,0 +1,40 @@
+.project-modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  max-width: 900px;
+  color: #19281c;
+  margin: 0 auto;
+  border: 2px solid #18261D;
+  background: #bdbdbd;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 25px;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.project-details {
+  height: 100%;
+  overflow: auto;
+}
+
+.project-detail-header {
+  font-size: 1.8em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.project-detail-image {
+  display: block;
+  width: 100%;
+  max-width: 630px;
+  margin: 30px auto;
+  border: 1px solid #18261D;
+  border-radius: 6px;
+}

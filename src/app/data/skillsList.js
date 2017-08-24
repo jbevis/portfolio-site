@@ -2,9 +2,9 @@ const skillsList = [
 	{
 		title: 'Languages',
 		skills: [
-			'JavaScript,',
-			'HTML5,',
-			'CSS3,',
+			'JavaScript, ',
+			'HTML5, ',
+			'CSS3, ',
 			'SQL.'
 		],
 		imageClass: 'lang-icon',

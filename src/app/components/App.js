@@ -47,7 +47,7 @@ class App extends Component {
 
   showProjectDetails() {
     const projectToDisplay = this.state.projects.find(project => 
-      project.title === this.state.projectToDisplay
+      project.title === this.state.projectToDisplay,
     );
     return (
       <Modal className='project-modal'

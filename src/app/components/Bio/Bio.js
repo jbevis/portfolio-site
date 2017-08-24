@@ -12,8 +12,9 @@ const Bio = ({ handleToggle }) => {
         <p>Please find out more about me via my
           <a href='https://www.linkedin.com/in/jack-bevis-884073138/' 
              target='_blank'>&nbsp;Linkedin&nbsp;
-          </a> profile, my
-          <a onClick={() => { handleToggle('resume') }} 
+          </a> profile, download my
+          <a href='../../styles/images/jack_bevis_resume.pdf'
+             download='jack_bevis_resume.pdf'
              className='resume-display'> resume
           </a>, or contact me directly
           <a href='mailto:jack.bevis@gmail.com'>&nbsp;here&nbsp;</a>.

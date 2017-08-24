@@ -3,14 +3,14 @@ import './Skills.css';
 
 const Skills = ({ skills }) => {
   const allSkills = skills.map((skill, i) => {
-    const { title, skills, image, imageAlt } = skill;
+    const { title, skills, imageClass, imageAlt } = skill;
     const skillLists = skills.map((eachSkill, i) => {
-      <span key={i}>{ eachSkill }</span>
+      return <span key={i}>{ eachSkill }</span>
     });
 
     return (
       <article className='skill-block' key={i}>
-        <img className='skill-image' src={ image } alt={ imageAlt } />
+        <div className={ imageClass }></div>
         <div className='skills-list'>
           <h4>{ title }</h4>
           { skillLists }

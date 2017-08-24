@@ -8,7 +8,7 @@ const skillsList = [
 			'SQL',
 			'Git'
 		],
-		image: '../styles/images/code.svg',
+		imageClass: 'lang-icon',
 		imageAlt: 'Closing tag'
 	},
 	{
@@ -23,7 +23,7 @@ const skillsList = [
 			'postgreSQL',
 			'Sass/SCSS',
 		],
-		image: '../styles/images/libraries.svg',
+		imageClass: 'lib-icon',
 		imageAlt: 'Stacked books'
 	},
 	{
@@ -36,7 +36,7 @@ const skillsList = [
 			'Jasmine',
 			'Selenium'
 		],
-		image: '../styles/images/testing.svg',
+		imageClass: 'test-icon',
 		imageAlt: 'Page with checkmarks'
 	},
 	{
@@ -49,7 +49,7 @@ const skillsList = [
 			'Waffle.io',
 			'CircleCI'
 		],
-		image: '../styles/images/workflow.svg',
+		imageClass: 'flow-icon',
 		imageAlt: 'Flowchart'
 	},
 	{
@@ -61,7 +61,7 @@ const skillsList = [
 			'Webpack',
 			'RESTful API Design',
 		],
-		image: '../styles/images/web-site.svg',
+		imageClass: 'dev-icon',
 		imageAlt: 'Flowchart'
 	},
 ]

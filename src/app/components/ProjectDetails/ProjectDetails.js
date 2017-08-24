@@ -15,7 +15,7 @@ const ProjectDetails = ({ title, description, image, techUsed, handleToggle }) =
       <p className='project-detail-descpription'>{ description }</p>
       <div className='project-detail-tech'>
         <h3>Technologies Used</h3>
-        { listedTech }
+        <ul>{ listedTech }</ul>
       </div>
       <button className='close-btn'
               onClick={ () => handleToggle() }>

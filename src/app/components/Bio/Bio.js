@@ -12,7 +12,7 @@ const Bio = ({ handleToggle }) => {
         <p>Please find out more about me via my
           <a href='https://www.linkedin.com/in/jack-bevis-884073138/' 
              target='_blank'>&nbsp;Linkedin&nbsp;
-          </a> profile, my
+          </a> profile, my 
           <a onClick={() => { handleToggle('resume') }} 
              className='resume-display'>resume
           </a>, or contact me directly

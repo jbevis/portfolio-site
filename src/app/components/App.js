@@ -9,7 +9,7 @@ import skillsList from '../data/skillsList';
 import Header from './Header/Header';
 import About from './About/About';
 import Projects from './Projects/Projects';
-import ProjectDetails from './ProjectDetails/ProjectDetails';
+import ProjectDetails from './Projects/ProjectDetails';
 import Footer from './Footer/Footer';
 
 class App extends Component {

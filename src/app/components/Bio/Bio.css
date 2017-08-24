@@ -1,13 +1,13 @@
 #bio {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: #494949;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #494949;
 }
 
 h2 {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 .text-area {
@@ -17,16 +17,16 @@ h2 {
 }
 
 p {
-	text-align: start;
+  text-align: start;
 }
 
 a {
-	text-decoration: none;
-	color: #92A8A6;
-	font-weight: 700;
-	cursor: pointer;
+  text-decoration: none;
+  color: #92A8A6;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 a:hover {
-	color: #7D4F50;
+  color: #7D4F50;
 }

@@ -4,9 +4,9 @@ import './Skills.css';
 const Skills = ({ skills }) => {
   const allSkills = skills.map((skill, i) => {
     const { title, skills, imageClass, imageAlt } = skill;
-    const skillLists = skills.map((eachSkill, i) => {
-      return <span key={i}>{ eachSkill }</span>
-    });
+    const skillLists = skills.map((eachSkill, i) =>
+      <span key={i}>{ eachSkill }</span>
+    );
 
     return (
       <article className='skill-block' key={i}>
@@ -23,7 +23,9 @@ const Skills = ({ skills }) => {
     <section>
       <div className='skills-wrapper'>
         <h2>What I Know</h2>
-        { allSkills }
+        <div className='skills-section'>
+          { allSkills }
+        </div>
       </div>
     </section>
   );

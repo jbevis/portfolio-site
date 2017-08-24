@@ -1,0 +1,27 @@
+.lang-icon, .lib-icon, .test-icon, .flow-icon, .dev-icon {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #C4C6C9;
+	width: 120px;
+	height: 124px;
+}
+
+.lang-icon {
+	mask-image: url('../../styles/images/code.svg');
+}
+
+.lib-icon {
+	mask-image: url('../../styles/images/libraries.svg');
+}
+
+.test-icon {
+	mask-image: url('../../styles/images/test.svg');
+}
+
+.flow-icon {
+	mask-image: url('../../styles/images/workflow.svg');
+}
+
+.dev-icon {
+	mask-image: url('../../styles/images/web-site.svg');
+}

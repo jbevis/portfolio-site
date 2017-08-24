@@ -34,7 +34,7 @@ class App extends Component {
   };
 
   scrollToAbout() {
-    Scroll.scroller.scrollTo('about', {
+    Scroll.scroller.scrollTo('about-section', {
       durcation: 1000,
       delay: 250,
       smooth: true

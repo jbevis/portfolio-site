@@ -90,3 +90,33 @@
 .project-btn:hover {
   color: #CC8B86;
 }
+
+@media (max-width:847px) {
+  .individual-project {
+    min-width: 90%;
+  }
+}
+
+@media (max-width:460px) {
+  .article-layer h3 {
+    margin-bottom: 0;
+    font-size: 1.8em;
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width:375px) {
+  .article-layer h3 {
+    padding-top: 10px;
+    font-size: 1.65em;
+  }
+  .article-layer .project-icons {
+    padding: 10px;
+    width: 50px;
+  }
+  scroll-btn {
+    bottom: 0;
+    position: absolute;
+    right: 43%;
+  }
+}

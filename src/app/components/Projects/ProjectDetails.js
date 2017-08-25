@@ -3,19 +3,19 @@ import './ProjectDetails.css';
 
 const ProjectDetails = ({ title, description, image, techUsed, handleToggle }) => {
   const listedTech = techUsed.map((tech, i) =>
-    <h4 key={ i }>{ tech }</h4>
+    <li key={ i }>{ tech }</li>
   );
   
   return (
     <section className='project-details'>
       <h2 className='project-detail-header'>{ title }</h2>
       <img className='project-detail-image'
-           src={ image }
+           src={ require(`${image}`) }
            alt={ `Image of ${title} project` } />
       <p className='project-detail-descpription'>{ description }</p>
       <div className='project-detail-tech'>
         <h3>Technologies Used</h3>
-        <ul>{ listedTech }</ul>
+        <ul className='tech-used'>{ listedTech }</ul>
       </div>
       <button className='close-btn'
               onClick={ () => handleToggle() }>

@@ -45,3 +45,25 @@
   left: 20px;
   font-size: 0.8em;
 }
+
+@media (max-width: 600px) {
+  .contact-section {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 410px) {
+  .contact-section {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 97%;
+  }
+
+  #scroll-up {
+    display: none;
+  }
+
+  #footer .footer-tag {
+    text-align: center;
+  }
+}

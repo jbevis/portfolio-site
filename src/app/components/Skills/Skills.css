@@ -68,3 +68,20 @@
   margin: 0 auto;
   width: 95%;
 }
+
+@media (max-width: 690px) {
+  .skill-block {
+    width: 85%;
+  }
+}
+
+@media (max-width: 420px) {
+  .lang-icon, .lib-icon, .test-icon, .flow-icon, .dev-icon {
+    width: 81px;
+    height: 81px;
+  }
+
+  .skill-block:not(:last-child) {
+    border-bottom: solid 1px #1e3426;
+  }
+}

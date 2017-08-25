@@ -16,7 +16,7 @@
   background-repeat: no-repeat;
   background-color: #494949;
   width: 120px;
-  height: 124px;
+  height: 120px;
 }
 
 .lang-icon {
@@ -36,7 +36,7 @@
 }
 
 .dev-icon {
-  mask-image: url('../../styles/images/web-site.svg');
+  mask-image: url('../../styles/images/tools.svg');
 }
 
 .skill-block .skills-list {
@@ -45,7 +45,6 @@
 }
 
 .skills-list h4 {
-  padding: 5px 0 25px 0;
   color: #494949;
   font-size: 1.2em;
 }

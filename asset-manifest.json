@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.bf19c046.css",
-  "main.css.map": "static/css/main.bf19c046.css.map",
-  "main.js": "static/js/main.79424bb8.js",
-  "main.js.map": "static/js/main.79424bb8.js.map",
+  "main.css": "static/css/main.a7be607c.css",
+  "main.css.map": "static/css/main.a7be607c.css.map",
+  "main.js": "static/js/main.dc6f3ee5.js",
+  "main.js.map": "static/js/main.dc6f3ee5.js.map",
   "static/media/arrow.svg": "static/media/arrow.85fc7430.svg",
   "static/media/background.jpg": "static/media/background.bfdbefda.jpg",
   "static/media/code.svg": "static/media/code.5118310d.svg",
@@ -16,9 +16,9 @@
   "static/media/linkedin-button.svg": "static/media/linkedin-button.63a10ca3.svg",
   "static/media/movietracker.png": "static/media/movietracker.69175f63.png",
   "static/media/test.svg": "static/media/test.dd1fc20b.svg",
+  "static/media/tools.svg": "static/media/tools.141935d6.svg",
   "static/media/trivial.png": "static/media/trivial.3c1e64b2.png",
   "static/media/twitter.svg": "static/media/twitter.d142a9a3.svg",
   "static/media/weatherly.png": "static/media/weatherly.92a6d216.png",
-  "static/media/web-site.svg": "static/media/web-site.55b82e2e.svg",
   "static/media/workflow.svg": "static/media/workflow.98b6fa55.svg"
 }

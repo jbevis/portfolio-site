@@ -1,10 +1,12 @@
 #header {
   height: 100vh;
   width: 490px;
+  display: flex;
+  flex-direction: column;
 }
 
 #bio-title {
-  color: #605E72;
+  color: #F9EAE2;
   margin: 75px 30px;
   font-size: 1.64em;
   width: 750px;
@@ -18,7 +20,9 @@
   outline: none;
   width: 50px;
   height: 50px;
-  margin: 10px auto 0 auto;
+  margin-left: 75px;
+  position: relative;
+  margin-top: -90px;
   border: none;
   cursor: pointer;
   transform: rotate(180deg);
@@ -34,4 +38,49 @@
 
 #bar {
   color: #7D4F50;
+}
+
+@media (max-width: 760px) {
+  #pro-title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scroll-btn {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  #name {
+    font-size: 2em;
+  }
+
+  #pro-title {
+    font-size: 1.5em;
+  }
+
+  #bio-title {
+    width: 0px;
+  }
+
+  .scroll-btn {
+    margin-top: -33px;
+    right: 12%;
+  }
+}
+
+@media (max-width: 400px) {
+  #name {
+    font-size: 1.75em;
+  }
+
+  #pro-title {
+    font-size: 1em;
+  }
+
+  .scroll-btn {
+    margin-top: -90px;
+    right: 10%;
+  }
 }

@@ -38,3 +38,24 @@
   border: 1px solid #18261D;
   border-radius: 6px;
 }
+
+.project-detail-tech h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: none;
+  border-radius: 11px;
+  color: white;
+  background: grey;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #E91326;
+}

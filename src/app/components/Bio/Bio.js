@@ -12,7 +12,11 @@ const Bio = ({ handleToggle }) => {
         <p>Please find out more about me via my
           <a href='https://www.linkedin.com/in/jack-bevis-884073138/' 
              target='_blank'>&nbsp;Linkedin&nbsp;
-          </a> profile or contact me directly
+          </a> profile, view my
+          <a href='https://dochub.com/jackbevis/28Kqok/jbevis_mb_resume?dt=ig0u6rhncp34pi7c'
+             target='_blank'
+             className='resume-display'> resume
+          </a>, or contact me directly
           <a href='mailto:jack.bevis@gmail.com'>&nbsp;here&nbsp;</a>.
         </p>
       </div>

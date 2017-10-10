@@ -14,11 +14,6 @@ const Footer = ({ handleScrollUp }) => {
            target='_blank'
            title='Linkedin' >
       </a>
-      <a className='footer-icons twitter'
-           href='https://twitter.com/bevisjw'
-           target='_blank'
-           title='Twitter' >
-      </a>
       <a className='footer-icons contact'
            href='mailto:jack.bevis@gmail.com'
            title='Contact' >

@@ -3,9 +3,12 @@ const skillsList = [
     title: 'Languages',
     skills: [
       'JavaScript(ES6), ',
+      'Java, '
+      'Ruby, '
       'SQL, ',
       'HTML5, ',
       'CSS3, ',
+      'Bash / shell scripting , ',
       'Web Standards'
     ],
     imageClass: 'lang-icon',
@@ -16,10 +19,12 @@ const skillsList = [
     skills: [
       'Node.js, ',
       'React.js, ',
+      'Vue.js, ',
       'Redux, ',
       'jQuery, ',
       'Express.js, ',
-      'Knex.js.'
+      'Knex.js, ',
+      'Java Spring, '
     ],
     imageClass: 'lib-icon',
     imageAlt: 'Stacked books'
@@ -29,6 +34,8 @@ const skillsList = [
     skills: [
       'Sass/SCSS, ',
       'postgreSQL, ',
+      'PostGIS, '
+      'MySQL, ',
       'Websockets, ',
       'Webpack, ',
       'D3.js, ',
@@ -46,6 +53,7 @@ const skillsList = [
       'Enzyme, ',
       'Jest, ',
       'Jasmine, ',
+      'JUnit, ',
       'Selenium.'
     ],
     imageClass: 'test-icon',
@@ -56,6 +64,8 @@ const skillsList = [
     skills: [
       'Agile, ',
       'Git, ',
+      'Jira, ',
+      'Bit Bucket, ',
       'Trello, ',
       'Waffle.io, ',
       'CircleCI.'

@@ -3,13 +3,13 @@ const skillsList = [
     title: 'Languages',
     skills: [
       'JavaScript(ES6), ',
-      'Java, '
+      'Java, ',
       'Ruby, ',
       'SQL, ',
       'HTML5, ',
       'CSS3, ',
       'Bash / shell scripting , ',
-      'Web Standards'
+      'Web Standards.'
     ],
     imageClass: 'lang-icon',
     imageAlt: 'Closing tag'

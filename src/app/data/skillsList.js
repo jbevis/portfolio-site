@@ -4,7 +4,7 @@ const skillsList = [
     skills: [
       'JavaScript(ES6), ',
       'Java, '
-      'Ruby, '
+      'Ruby, ',
       'SQL, ',
       'HTML5, ',
       'CSS3, ',

@@ -34,7 +34,7 @@ const skillsList = [
     skills: [
       'Sass/SCSS, ',
       'postgreSQL, ',
-      'PostGIS, '
+      'PostGIS, ',
       'MySQL, ',
       'Websockets, ',
       'Webpack, ',

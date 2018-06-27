@@ -22,7 +22,7 @@ const Footer = ({ handleScrollUp }) => {
               type='button'
               onClick={ () => handleScrollUp() } >
       </button>
-      <h3 className='footer-tag'>{ '\u00A9' } Jack Bevis | 2017 </h3>
+      <h3 className='footer-tag'>{ '\u00A9' } Jack Bevis | 2018 </h3>
     </footer>
   );
 };

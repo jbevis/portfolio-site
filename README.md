@@ -1,6 +1,6 @@
 ## Jack Bevis
 
-### Software Developer | Cartographer
+### Software Developer
 
 My personal portfolio site highlighting my talents as a developer as well as my project portfolio.
 

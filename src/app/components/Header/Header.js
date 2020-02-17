@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
 const Header = ({ handleScrollDown }) => {
@@ -6,12 +8,12 @@ const Header = ({ handleScrollDown }) => {
     <header id='header'>
       <div id='bio-title'>
         <h1 id='name'>JACK BEVIS</h1>
-        <h2 id='pro-title'>Software Developer <span id='bar'>|</span> Cartographer</h2>
+        <h2 id='pro-title'>software developer</h2>
       </div>
-      <button className='scroll-btn'
-              type='button'
-              onClick={ () => handleScrollDown() } >
-      </button>
+      <FontAwesomeIcon icon={faArrowAltCircleDown} 
+                       type='button'
+                       className='scroll-btn'
+                       onClick={ ()=> handleScrollDown() }/>
     </header>
   );
 };

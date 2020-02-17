@@ -6,26 +6,29 @@
 }
 
 #bio-title {
-  color: #F9EAE2;
+  color: #0CBABA;
   margin: 75px 30px;
   font-size: 1.64em;
   width: 750px;
+  font-family: 'Monda', sans-serif;
+  position: relative;
+}
+
+#pro-title {
+  color: #FFF;
 }
 
 .scroll-btn {
-  display: block;
-  background-color: transparent;
-  background-size: cover;
-  background: url('../../styles/images/arrow.svg');
-  outline: none;
-  width: 50px;
-  height: 50px;
-  margin-left: 75px;
+  margin-left: 30px;
+  font-size: 50px;
   position: relative;
-  margin-top: -90px;
-  border: none;
+  top: -65px;
   cursor: pointer;
-  transform: rotate(180deg);
+  color: #FFF;
+}
+
+.scroll-btn:hover {
+  color:#0CBABA;
 }
 
 #name {
@@ -33,11 +36,6 @@
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   border: none;
- 
-}
-
-#bar {
-  color: #7D4F50;
 }
 
 @media (max-width: 760px) {

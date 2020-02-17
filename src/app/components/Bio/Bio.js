@@ -11,10 +11,10 @@ const Bio = ({ handleToggle }) => {
         <p>At work, I am a driven and dedicated team member. I constantly seek personal and professional growth through a myriad of avenues. I love to solve problems either on my own or through collaboration and always strive to deliver exceptional deliverables. When I am not working, I enjoy climbing, snowboarding, and really all forms of outdoor activities. I'm a bit of a map nerd and love looking through antique charts and maps. Otherwise time spent with family and friends over a good meal is hard to beat.</p>
         <p>Please find out more about me via my
           <a href='https://www.linkedin.com/in/jack-bevis-884073138/' 
-             target='_blank'>&nbsp;Linkedin&nbsp;
+             target='_blank' rel='noopener noreferrer'>&nbsp;Linkedin&nbsp;
           </a> profile, view my
-          <a href='https://dochub.com/jackbevis/28Kqok/jbevis_mb_resume?dt=ig0u6rhncp34pi7c'
-             target='_blank'
+          <a href='https://dochub.com/jackbevis/Y4kpMWx/jbevis-resume-2020-pdf'
+             target='_blank' rel='noopener noreferrer'
              className='resume-display'> resume
           </a>, or contact me directly
           <a href='mailto:jack.bevis@gmail.com'>&nbsp;here&nbsp;</a>.

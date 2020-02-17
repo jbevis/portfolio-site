@@ -1,10 +1,11 @@
 #footer {
-  background-color: #CC8B86;
+  background-color:  #380036;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
+  color: #FFF;
 }
 
 .footer-icons {
@@ -33,10 +34,14 @@
   right: 25px;
   width: 35px;
   height: 35px;
+  font-size: 50px;
   margin: inherit;
   border: none;
   cursor: pointer;
-  background: url('../../styles/images/arrow.svg')
+}
+
+#scroll-up:hover {
+  color: #0CBABA;
 }
 
 .footer-tag {

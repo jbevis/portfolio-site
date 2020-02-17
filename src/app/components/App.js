@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Scroll from 'react-scroll';
 import Modal from 'react-modal';
-
+import ParticleNodes from './interactiveNodes/particles';
 import '../styles/index.css';
 
 import projectList from '../data/projectList';
@@ -47,15 +47,18 @@ class App extends Component {
 
   showProjectDetails() {
     const projectToDisplay = this.state.projects.find(project => 
-      project.title === this.state.projectToDisplay,
+      project.title === this.state.projectToDisplay
     );
-    return (
-      <Modal className='project-modal'
-             isOpen={ this.state.modalOpen }
-             contentLabel='Project Details' >
-        <ProjectDetails { ...projectToDisplay } handleToggle={ this.toggleModal } />
-      </Modal>
-    );
+
+    if (projectToDisplay) {
+      return (
+        <Modal className='project-modal'
+               isOpen={ this.state.modalOpen }
+               contentLabel='Project Details' >
+          <ProjectDetails { ...projectToDisplay } handleToggle={ this.toggleModal } />
+        </Modal>
+      );
+    }
   };
 
   toggleModal(title) {
@@ -70,6 +73,7 @@ class App extends Component {
     const { projects, skills } = this.state;
     return (
      <main id="app">
+       <ParticleNodes />
       { this.showProjectDetails() }
       <Header handleScrollDown={ this.scrollToAbout } />
       <About skillsList={ skills } handleToggle={ this.toggleModal } />

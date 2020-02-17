@@ -3,23 +3,28 @@ import './Projects.css';
 
 const Projects = ({ handleToggle, projectList }) => {
   const allProjects = projectList.map((project, i) => {
-    const { title, image, gitHubRepo, siteURL, icons } = project;
+    const { title, image, icons } = project;
     
     return (
       <article className='individual-project' key={i}>
         <img className='project-image' src={ require(`${image}`) } alt={ `Screen shot of ${title} project.`} />
         <section className='article-layer'>
           <h3>{ title }</h3>
-          <a href={ gitHubRepo } target='_blank' title='GitHub Repo'>
-            <img className='project-icons' src={ require(`${icons.gitHub}`) } alt='GitHub Logo' />
-          </a>
+          <div className='project-links'>
+          { Object.keys(icons).map((key, i) => {
+            if (project[key]) {
+              return (
+                <a href={ project[key] } target='_blank' rel='noreferrer noopener' title={ project[key] }>
+                  <img className='project-icons' src={require(`${icons[key]}`)} alt='icon image' />
+                </a>
+              )
+            }
+          })}
+          </div>
           <button className='project-btn'
                   onClick={ () => handleToggle(title) } >
             More Info
           </button>
-          <a href={ siteURL } target='_blank' alt='Website'>
-            <img className='project-icons' src={ require(`${icons.site}`) } alt='Live site icon' />
-          </a>
         </section>
       </article>
     );

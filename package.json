@@ -10,7 +10,7 @@
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-modal": "^3.11.1",
+    "react-modal": "^3.14.3",
     "react-particles-js": "^2.7.1",
     "react-scroll": "^1.7.16"
   },

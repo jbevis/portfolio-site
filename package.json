@@ -8,8 +8,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.8",
     "gh-pages": "^1.0.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react": "^15.7.0",
+    "react-dom": "^15.7.0",
     "react-modal": "^3.11.1",
     "react-particles-js": "^2.7.1",
     "react-scroll": "^1.7.16"
